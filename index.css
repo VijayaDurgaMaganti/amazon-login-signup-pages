@@ -1,7 +1,7 @@
 * {
-
-
-
+    margin-top: 0%;
+    padding: 0px;
+    box-sizing: border;
     font-family: Arial, Helvetica, sans-serif;
 
     background-size: cover;
@@ -10,14 +10,9 @@
 .image {
     background-size: cover;
     background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/3E8B/production/_121611061_gettyimages-1232756388.jpg");
-    width: 95vw;
-    height: 95vh;
 }
 
 
-.h1 {
-    color: #179929
-}
 
 .logo {
     display: flex;
@@ -34,30 +29,12 @@
     width: 105px;
     height: 35px;
     margin-top: 15px;
-    margin-bottom: 15px;
 
 }
 
 .logo span {
     margin-top: 5px;
     font-size: 10px;
-}
-
-.card {
-
-    width: 400px;
-    background-color: aqua;
-    height: 400px;
-    padding: 90px 22px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    border: 2px solid #ddd;
-    border-radius: 20px;
-    margin-top: 0%;
-    margin-bottom: 0%;
-
-
 }
 
 .form {
@@ -70,6 +47,23 @@
     background-color: transparent;
 }
 
+.card {
+
+    background-size: cover;
+    width: 400px;
+    background-color: aqua;
+    height: 400px;
+    padding: 85px 22px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 10px auto 10px auto;
+    margin-top: 0%;
+
+
+}
 
 .text-field {
 
@@ -96,7 +90,7 @@
     display: flex;
     width: 290px;
 
-    height: 30px;
+    height: 25px;
     padding: 3px 7px;
     margin-top: 2px;
     background-color: #ffff;
@@ -168,12 +162,12 @@ a {
     padding: 3px 7px;
     border: 1px solid #a6a6a6;
     border-radius: 3px;
-    color: #ddd;
+    color: hwb(319 4% 59%);
     font-weight: bold;
 }
 
 .btn-button:hover {
-    background-color: aquamarine;
+    background-color: yellow;
 
 }
 
